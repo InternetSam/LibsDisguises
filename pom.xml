@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>LibsDisguises</groupId>
 	<artifactId>LibsDisguises</artifactId>
-	<version>8.2.6-SNAPSHOT</version>
+	<version>8.2.7-SNAPSHOT</version>
 
 	<build>
 		<sourceDirectory>src</sourceDirectory>
@@ -79,17 +79,17 @@
 		<dependency>
 			<groupId>com.comphenix.protocol</groupId>
 			<artifactId>ProtocolLib</artifactId>
-			<version>3.4.0-SNAPSHOT</version>
+			<version>3.5.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>org.spigotmc</groupId>
 			<artifactId>spigot-api</artifactId>
-			<version>1.7.8-R0.1-SNAPSHOT</version>
+			<version>1.7.10-R0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>org.spigotmc</groupId>
 			<artifactId>spigot</artifactId>
-			<version>1.7.8-R0.1-SNAPSHOT</version>
+			<version>1.7.10-R0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>junit</groupId>
@@ -99,14 +99,15 @@
 		</dependency>
 	</dependencies>
 
-	<distributionManagement>
-		<repository>
-			<id>md_5-releases</id>
-			<url>http://repo.md-5.net/content/repositories/releases/</url>
-		</repository>
-		<snapshotRepository>
-			<id>md_5-snapshots</id>
-			<url>http://repo.md-5.net/content/repositories/snapshots/</url>
-		</snapshotRepository>
-	</distributionManagement>
+    <!-- Deployment -->
+    <distributionManagement>
+        <repository>
+            <id>overcast-deployment</id>
+            <url>https://repo.oc.tc/content/repositories/releases</url>
+        </repository>
+        <snapshotRepository>
+            <id>overcast-deployment</id>
+            <url>https://repo.oc.tc/content/repositories/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
