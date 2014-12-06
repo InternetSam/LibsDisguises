@@ -8,7 +8,7 @@ import me.libraryaddict.disguise.DisguiseListener;
 import me.libraryaddict.disguise.disguisetypes.DisguiseType;
 import me.libraryaddict.disguise.utilities.BaseDisguiseCommand;
 
-import org.apache.commons.lang.StringUtils;
+import net.minecraft.util.org.apache.commons.lang3.StringUtils;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
