@@ -75,7 +75,7 @@
 		<dependency>
 			<groupId>com.comphenix.protocol</groupId>
 			<artifactId>ProtocolLib</artifactId>
-			<version>3.5.1-SNAPSHOT</version>
+			<version>3.5.1-HACK</version>
 		</dependency>
 		<dependency>
 			<groupId>tc.oc</groupId>
